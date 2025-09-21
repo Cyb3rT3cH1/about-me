@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aman Gupta | Cyber Security Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  body {
+    background: radial-gradient(ellipse at top, #0f0c29 0%, #302b63 70%, #24243e 100%);
+    color: #03ffea;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px 24px;
+    border-radius: 14px;
+    box-shadow: 0 0 32px 6px #0ffeff48;
+    background: rgba(30,33,51,0.97);
+  }
+  .header {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  .header img {
+    width: 180px;
+    border-radius: 14px;
+    box-shadow: 0 0 18px #08fee8c8;
+    border: 2.5px solid #0ffeff;
+    animation: flicker 2.6s infinite alternate;
+  }
+  @keyframes flicker {
+    0%,100% { box-shadow: 0 0 18px #08fee8c8;}
+    30% { box-shadow: 0 0 36px #ff00d988;}
+    60% { box-shadow: 0 0 26px #fd00ebad;}
+  }
+  .profile {
+    flex: 1;
+  }
+  .profile h1 {
+    font-family: 'Orbitron', monospace;
+    font-size: 2.35em;
+    margin-bottom: 0;
+    color: #0ffeff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 18px #0ffeff60;
+    animation: cyberflicker 1.7s infinite alternate;
+  }
+  @keyframes cyberflicker {
+    0%,100% { opacity: 1;}
+    50% { opacity: 0.6;}
+    88% { opacity: .93;}
+  }
+  .title-role {
+    color: #ff29e6;
+    font-size: 1.15em;
+    font-family: 'Orbitron', monospace;
+    margin-bottom: 3px;
+  }
+  .contact {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #cdf9ff;
+  }
+  a { color: #39ffff; }
+  nav.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    background: #0b0b25dd;
+    padding: 10px 0;
+    margin-bottom: 28px;
+    border-radius: 9px;
+    box-shadow: 0 0 18px #1adae6cc;
+  }
+  nav.main-nav a {
+    font-family: 'Orbitron', monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0ffeff;
+    padding: 8px 18px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0 0 12px #0ffeff70;
+  }
+  nav.main-nav a:hover {
+    background-color: #ff24f2;
+    color: #fff;
+    box-shadow: 0 0 32px #ff24f2;
+  }
+  .section {
+    margin-top: 32px;
+  }
+  .section-title {
+    font-size: 1.55em;
+    color: #ff29e6;
+    font-family: 'Orbitron', monospace;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px #fd32f065;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    border-left: 6px solid #ff00e7;
+    padding-left: 14px;
+  }
+  .about {
+    padding: 16px;
+    background: #222532e6;
+    border-radius: 9px;
+    box-shadow: 0 0 12px #03ffea55;
+    font-size: 1.12em;
+    line-height: 1.48;
+    color: #ffeeff;
+  }
+  ul.cert-list, ul.expert-list, ul.services-list, ul.awards-list, ul.courses-list {
+    padding-left: 26px;
+    margin-bottom: 10px;
+    font-size: 1.12em;
+    color: #86fff6;
+  }
+  ul.services-list li, ul.courses-list li {
+    margin-bottom: 9px;
+  }
+  ul.cert-list li, ul.awards-list li {
+    margin-bottom: 5px;
+  }
+  .image-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #00fff7;
+    box-shadow: 0 0 26px #0ffeffb0;
+    margin-bottom: 16px;
+    transition: transform 0.3s ease;
+  }
+  .image-section img:hover {
+    transform: scale(1.05);
+  }
+  .footer {
+    text-align: center;
+    color: #ffeefd;
+    font-size: 15px;
+    margin-top: 38px;
+    letter-spacing: 1.3px;
+    padding-bottom: 14px;
+  }
+</style>
+</head>
+<body>
+<!--
+<nav class="main-nav">
+  <a href="#home">Home</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#proud">Proud Moments</a>
+  <a href="#expertise">Expertise</a>
+  <a href="#Compliance & Certification">Cert</a>
+  <a href="#services">Services</a>
+  <a href="#courses">Courses</a>
+  <a href="#client">Client Feedback</a>
+  <a href="#mission">Mission</a>
+</nav>
+-->
+<div class="container" id="home">
+
+  <div class="header">
+    <img src="aman.jpg" alt="Aman Gupta" />
+    <div class="profile">
+	    <h1>Aman Gupta ( Cyb3rT3cH)</h1>
+      <div class="title-role">Business Owner at WhiteBand Associates LLP |Co-Founder | CTO | Cyb3rT3cH | CEH |CompTia | IFS | RHCSA | SCSU | Code-red | Penetration Tester | Cyber Security Auditor | Mentor |Trainer | Treasurer @ TCAM |</div>
+      <div class="contact">
+        <div>📞 8329757925 | <a href="mailto:aman@whitebandassociates.com">aman@whitebandassociates.com</a></div>
+	<div>🏢 Office no 3, Ayodhya appt. Dsouza colony opp. collage road police station nashik 422005</div>
+        <div>🌐 <a href="https://www.whitebandassociates.com/" target="_blank">whitebandassociates.com</a></div>
+        <div>🔗 <a href="https://www.linkedin.com/in/aman-gupta-cybertech-aa1898239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a></div>
+      </div>
+    </div>
+  </div>
+<div class="section">
+      <div class="section-title">About Me</div>
+      <div class="about">
+        Aman Ashok Gupta, Director of White Band Associates, is a passionate and renowned cyber security professional specializing in Ethical Hacking, Digital Forensics, and Cyber Crime Investigations. With over 12 years of experience, he has successfully handled complex cases across domains such as VAPT, WAPT, SOC, GRC, law enforcement training, and academic mentorship.
+
+As Director of White Band Associates—an IT security consulting, training, and legal services firm headquartered in Nashik and Daund, India—he leads initiatives to strengthen cyber resilience for organizations, law enforcement agencies, and academic institutions.
+
+His articles on Ethical Hacking and Digital Forensics have been published in Buland Police Times. He is an internationally recognized bug hunter on Bugcrowd, a sought-after speaker at leading institutes, and a mentor to aspiring cyber security professionals.
+
+Aman is also a trainer for law enforcement agencies, equipping officers with specialized skills in investigation techniques, penetration testing, financial fraud detection, mobile hacking, and cyber protection for women and children. He has also collaborated with private detective agencies and contributed to solving high-profile cyber crime cases.
+
+Outside the cyber world, he is a renowned sportsman and avid cricket player, having represented India in international matches against Nepal, Bhutan, and Sri Lanka, as well as national tournaments across Goa, Kanpur, Jaipur, Udaipur, Hardoi, Agra, Himachal Pradesh, and Haryana.
+
+His diverse expertise, leadership, and commitment to cyber security make him a respected figure in both professional and academic circles.
+ 
+      </div>
+
+  <div class="section" id="achievements">
+    <div class="section-title">Achievements & Awards</div>
+    <div class="image-section">
+      <img src="nasa.jpg" alt="NASA Letter" />
+      <img src="ss1.jpg" alt="Hall of Fame" />
+    </div>
+  </div>
+
+  <div class="section" id="proud">
+    <div class="section-title">Proud Moments</div>
+    <div class="image-section">
+      <img src="proud.jpg" alt="Proud Moments Collage" />
+    </div>
+  </div>
+
+  <div class="section" id="expertise">
+    <div class="section-title">Expertise</div>
+    <div class="image-section">
+      <img src="expert.jpg" alt="Expertise Logos" />
+    </div>
+  </div>
+
+ <div class="section" id="Compliance and Certifications">
+    <div class="section-title">Cert</div>
+    <div class="image-section">
+      <img src="cert.jpg" alt="Expertise Logos" />
+    </div>
+  </div>
+
+  <div class="section" id="services">
+    <div class="section-title">Services</div>
+    <ul class="services-list">
+      <li>Training for students.</li>
+      <li>Corporate Training.</li>
+      <li>Penetration Testing.
+        <ul>
+          <li>VAPT (Vulnerability Assessment and Penetration Testing)</li>
+          <li>WAPT (Web Application And Penetration Testing)</li>
+          <li>Cloud Penetration Testing</li>
+          <li>Network Penetration Testing</li>
+          <li>Wireless Penetration Testing</li>
+          <li>Ransomware-as-a-Service</li>
+          <li>Phishing campaign</li>
+          <li>Dark web monitoring services</li>
+        </ul>
+      </li>
+      <li>Red Teaming.</li>
+      <li>Compliance Audit</li>
+      <li>Digital Forensics Investigation</li>
+      <li>Other Services</li>
+    </ul>
+  </div>
+
+  <div class="section" id="courses">
+    <div class="section-title">Courses</div>
+    <ul class="courses-list">
+      <li>Ethical Hacking (Based on E|EH & C|EH)</li>
+      <li>Cyber Security (Based on C|CSU)</li>
+      <li>Cyber Law (Based on C|CL)</li>
+      <li>Cyber Crime Investigation (Based on C|CCI)</li>
+      <li>Digital Forensic Investigation</li>
+      <li>Basic Android Hacking</li>
+      <li>Advance Android Hacking</li>
+      <li>System Hacking</li>
+      <li>Basic Penetration Testing (Based on C|BPT & CPENT)</li>
+      <li>Core Penetration Testing (Based on C|CPT & OSCP)</li>
+      <li>Bug Hunting ( Based on C|BH)</li>
+      <li>LINUX ESSENTIALS C|LE</li>
+      <li>BASIC NETWORKING C|NE</li>
+    </ul>
+  </div>
+
+  <div class="section" id="client">
+    <div class="section-title">Client Feedback</div>
+    <div class="image-section">
+      <img src="feed.jpg" alt="Testimonials" />
+    </div>
+  </div>
+
+  <div class="section" id="mission">
+    <div class="section-title">Mission</div>
+    <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
+      <div style="flex:1;min-width:260px;color:#d4dbee;font-size:1.13em;line-height:1.5;">
+        <h3>Our Mission</h3>
+        <p>The cyber security mission of the White Band Associates is to safeguard the confidentiality, integrity, and availability of information system identity and data assets by providing proactive security expertise creating and maintaining a resilient and secure infrastructure and fostering a culture of security awareness and compliance throughout the organization. White band associates team’s aims to secure our application, systems and networks resource and protect the CIA of client’s partners and staff data.</p>
+        <h3>Our Vision</h3>
+        <p>Our vision is to become a partner of choice for cyber security, cyber forensics, cyber crime investigations solutions for clients by bringing together people and technology to form the most powerful innovation cycle in cyber security, harnessing and implementing all aspects of data protection, and in turn working relentlessly towards protecting client data and our people and contributing to the development of the country by making it one of the most secure business destinations globally.</p>
+      </div>
+      <div style="flex:1;min-width:300px;">
+        <img src="miss.webp" alt="Mission Vision Image" style="width:100%; border-radius:14px; box-shadow: 0 0 18px #08fee8c8;"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025 Aman Gupta • Designed in Hacker Theme <br>
+    Powered by White Band Associates
+  </div>
+</div>
+
+</body>
+</html>
+
